@@ -1,0 +1,78 @@
+syntax = "proto3";
+
+option csharp_namespace = "DemoUsersManagementCommandSide";
+
+package invitationmember.command.v1;
+
+// The greeting service definition.
+service InvitaionMembers {
+  // Sends a greeting
+  rpc CreateInvitation(CreateInvitationRequest) returns (Response);
+  rpc SendInvitation (SendInvitationRequest) returns (Response);
+  rpc CancelInvitation (CancelInvitationRequest) returns (Response);
+  rpc AcceptInvitation (AcceptInvitationRequest) returns (Response);
+  rpc RejectInvitation (RejectInvitationRequest) returns (Response);
+  rpc DeleteInvitation (DeleteInvitationRequest) returns (Response);
+
+}
+
+message CreateInvitationRequest{
+  string account_id = 1;
+  string subscription_id = 2;
+  string member_id = 3;
+  string user_id = 4;
+  repeated Permission permissions = 5;
+}
+
+message SendInvitationRequest {
+	string id = 1;
+  string account_id = 2;
+  string subscription_id = 3;
+  string member_id = 4;
+  string user_id = 5;  
+  repeated Permission permissions = 6;
+}
+
+enum Permission {
+  TRANSFER = 0;
+  PURCHASE_CARDS = 1;
+  MANAGE_DEVICES = 2;
+}
+
+
+
+message CancelInvitationRequest{
+	string id = 1;
+	string account_id = 2;
+	string member_id = 3;
+	string subscription_id = 4;
+	string user_id = 5;
+}
+
+message AcceptInvitationRequest{
+	string id = 1;
+	string account_id = 2;
+	string member_id = 3;
+	string subscription_id = 4;
+	string user_id = 5;
+}
+
+message RejectInvitationRequest{
+	string id = 1;
+	string account_id = 2;
+	string member_id = 3;
+	string subscription_id = 4;
+	string user_id = 5;
+}
+
+
+message DeleteInvitationRequest{
+	string id = 1;
+	string user_id = 2;
+}
+
+
+message Response {
+	string id = 1;
+  string message = 2;
+}

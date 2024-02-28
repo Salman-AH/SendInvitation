@@ -1,0 +1,6 @@
+F:\My Projects\Ecom Company\Files Ecom Company\004-Event Source\MyProject\DemoUsersManagement\DemoUsersManagementCommandSide\obj\Debug\net8.0\DemoUsersManagementCommandSide.csproj.AssemblyReference.cache
+F:\My Projects\Ecom Company\Files Ecom Company\004-Event Source\MyProject\DemoUsersManagement\DemoUsersManagementCommandSide\obj\Debug\net8.0\DemoUsersManagementCommandSide.GeneratedMSBuildEditorConfig.editorconfig
+F:\My Projects\Ecom Company\Files Ecom Company\004-Event Source\MyProject\DemoUsersManagement\DemoUsersManagementCommandSide\obj\Debug\net8.0\DemoUsersManagementCommandSide.AssemblyInfoInputs.cache
+F:\My Projects\Ecom Company\Files Ecom Company\004-Event Source\MyProject\DemoUsersManagement\DemoUsersManagementCommandSide\obj\Debug\net8.0\DemoUsersManagementCommandSide.AssemblyInfo.cs
+F:\My Projects\Ecom Company\Files Ecom Company\004-Event Source\MyProject\DemoUsersManagement\DemoUsersManagementCommandSide\obj\Debug\net8.0\DemoUsersManagementCommandSide.csproj.CoreCompileInputs.cache
+F:\My Projects\Ecom Company\Files Ecom Company\004-Event Source\MyProject\DemoUsersManagement\DemoUsersManagementCommandSide\obj\Debug\net8.0\DemoUsersManagementCommandSide.MvcApplicationPartsAssemblyInfo.cache
